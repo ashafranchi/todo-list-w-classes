@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: blue;
 }
 
 .App-logo {
@@ -22,6 +23,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.button {
+  background-color: powderblue;
+  border-radius: 20%;
+  padding: 30;
+  margin: 100;
 }
 
 .App-link {

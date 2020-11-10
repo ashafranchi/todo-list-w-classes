@@ -31,9 +31,10 @@ submitItem() {
   render() {
   return (
     <div className="App">
-      <h1>Todo List App</h1>
+      <h1>Asha's To Do List Manager!</h1>
+      <h3>Add a Task Below.</h3>
       <input type="text" name="item" onChange={this.handleInputChange} ></input>
-      <button onClick={this.submitItem}>Submit Item</button>
+      <button className="button" onClick={this.submitItem}>Submit Item</button>
       {this.state.items.map((item) => {
         return (
           <p>{item}</p>
